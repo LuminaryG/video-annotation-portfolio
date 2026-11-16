@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Professional portfolio of Giwa Abdulwahab Funsho, specializing in video annotation, egocentric video analysis and AI evaluation.">
+  <title>Giwa Abdulwahab | Video Annotation Portfolio</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Arial, sans-serif;
+      background: #0d1117;
+      color: #e6edf3;
+      line-height: 1.7;
+    }
+    header {
+      padding: 65px 8%;
+      background: #161b22;
+      border-bottom: 1px solid #30363d;
+    }
+    header h1 { font-size: 2.4rem; color: #58a6ff; }
+    header p { color: #c9d1d9; margin-top: 12px; }
+    nav { margin-top: 20px; }
+    nav a {
+      color: #58a6ff;
+      margin-right: 18px;
+      text-decoration: none;
+    }
+    main { max-width: 1000px; margin: auto; padding: 35px 22px; }
+    section {
+      background: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 10px;
+      padding: 25px;
+      margin-bottom: 25px;
+    }
+    h2 { color: #58a6ff; margin-bottom: 15px; }
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .skills span {
+      background: #21262d;
+      border: 1px solid #30363d;
+      padding: 7px 12px;
+      border-radius: 6px;
+    }
+    table { width: 100%; border-collapse: collapse; }
+    th, td {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #30363d;
+    }
+    th { color: #58a6ff; }
+    a { color: #58a6ff; }
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #8b949e;
+    }
+    @media(max-width: 600px) {
+      header h1 { font-size: 1.8rem; }
+      section { overflow-x: auto; }
+      nav a { display: inline-block; margin-bottom: 8px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Giwa Abdulwahab Funsho</h1>
+  <p>Aerospace Engineer | Video Annotation Specialist | AI Trainer</p>
+  <p>Specializing in Egocentric Video Analysis, Human-Object Interaction,
+  Temporal Segmentation and AI Evaluation.</p>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am an Aerospace Engineering professional with experience in
+      aircraft maintenance, AI data annotation and model evaluation.
+      My technical interests include first-person video analysis,
+      computer vision, human-object interaction and multimodal AI.
+    </p>
+    <p>
+      I focus on producing accurate, structured and consistent
+      annotations that support machine learning and AI development.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="skills">
+      <span>Video Annotation</span>
+      <span>Egocentric Video Analysis</span>
+      <span>Temporal Segmentation</span>
+      <span>Action Recognition</span>
+      <span>Hand-Object Interaction</span>
+      <span>Image Annotation</span>
+      <span>LLM Evaluation</span>
+      <span>Quality Assurance</span>
+      <span>AI Training</span>
+      <span>Technical Documentation</span>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Featured Project</h2>
+    <h3>Egocentric Video Annotation</h3>
+    <p>
+      Demonstration of first-person video annotation using
+      structured timestamps, action descriptions and
+      hand-object interaction labels.
+    </p>
+
+    <h3>Sample Annotation</h3>
+    <table>
+      <tr>
+        <th>Time</th>
+        <th>Action</th>
+        <th>Object</th>
+      </tr>
+      <tr>
+        <td>00:00–00:02</td>
+        <td>Reach</td>
+        <td>Screwdriver</td>
+      </tr>
+      <tr>
+        <td>00:02–00:04</td>
+        <td>Grasp</td>
+        <td>Screwdriver</td>
+      </tr>
+      <tr>
+        <td>00:04–00:06</td>
+        <td>Position</td>
+        <td>Screwdriver</td>
+      </tr>
+      <tr>
+        <td>00:06–00:10</td>
+        <td>Rotate</td>
+        <td>Bolt and screwdriver</td>
+      </tr>
+    </table>
+    <p><em>Illustrative data, not extracted from an actual video.</em></p>
+  </section>
+
+  <section id="contact">
+    <h2>Professional Contact</h2>
+    <p>GitHub:
+      <a href="https://github.com/LuminaryG">LuminaryG</a>
+    </p>
+    <p>LinkedIn:
+      <a href="https://www.linkedin.com/in/abdulwahab-funsho-giwa-65688729b">
+        Connect with me
+      </a>
+    </p>
+  </section>
+</main>
+
+<footer>
+  <p>© 2026 Giwa Abdulwahab Funsho | Professional Portfolio</p>
+</footer>
+
+</body>
+</html>
